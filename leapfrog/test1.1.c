@@ -23,5 +23,14 @@ int main(void)
 //The function accepts two parameters, both integers.
 int logic(int x, int y)  // function to find if x is power of y if yes return 1 else return 0
 {
-    return !(x%y);
+    /*
+     return !(x%y);       // wrong logic wrong way Thanks to Ranjan Shrestha sir for pointing it out
+    */
+    int tem;
+    tem=x;
+    while(tem>1){
+        tem=tem/y;
+        if (tem==1) return 1;
+    }
+        return 0;
 }
