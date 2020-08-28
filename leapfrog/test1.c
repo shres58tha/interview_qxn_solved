@@ -20,7 +20,7 @@ int main(void)
 
 //The function is expected to return an integer.
 //The function accepts two parameters, both integers.
-int logic(int x, int y)  // function to find if x is power of y if yes return 0 else return 0
+int logic(int x, int y)  // function to find if x is power of y if yes return 1 else return 0
 // we need to just modify function to fulfill the task this was the only one i had time to do
 // just went through to see all the question thou
 {
