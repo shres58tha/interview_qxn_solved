@@ -35,7 +35,7 @@ int logic(char *input)
     // here write a function to indicate how many characters has to be typed to balance the barackets in the text 
     
     // { ( )}   i pasted this code but it did not compiled why i do not know
-    // i feel very few must have made this function right check it
+    // i feel very few must have made this function right check it later
     int a=0;
     char *s, ch;
     s=input;
@@ -66,3 +66,7 @@ int logic(char *input)
     
     return a;
 }
+// note : code doesnot work. has multiple issue like not compling but noticed an error in logic two as we should require two types of variable to count two types of bracket
+
+    
+
