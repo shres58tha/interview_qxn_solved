@@ -31,6 +31,9 @@ int logic(char *input)
     //Write your code here
     //You can create other functions and call from here
     //Don't print anything. Just return the intended output
+    
+    // here write a function to indicate how many characters has to be typed to balance the barackets in the text 
+    
     int a=0,b=0;
     
     while (*input!='\0'){
