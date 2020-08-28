@@ -27,9 +27,9 @@ int main(void)
 
 //The function is expected to return a string.
 //The function accepts string as parameter.
-char *logic(char *input)
+char *logic(char *input)    //  return to print the vowels capital case and constant lower case in in the passed string
 {
-    //Write your code here  // return vowels in the string else return none
+    //Write your code here  //  return to print the vowels capital case and constant lower case in in the passed string
     //You can create other functions and call from here
     //Don't print anything. Just return the intended output
     
