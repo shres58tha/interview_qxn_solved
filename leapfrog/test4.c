@@ -52,7 +52,9 @@ char *logic(char *input)    //  return to print the vowels capital case and cons
     }      
     *t='\0';            //terminating char needed for the end for the temp array of char so it can become string
        
-    t=temp;             //getting the base address of the temp array again
+   char *result=(char *)malloc(strlen(temp) + 1);   //+1 for buffer protection
     
-    return t;           // returning t ie char *,  returning of the temp causes trouble as it is not char * type
+   strcpy(result,temp);                            
+    
+   return result;     // returning t is memory bug as it is allocated free after finish of function so using malloc which create persistence until freed or termination
 }
